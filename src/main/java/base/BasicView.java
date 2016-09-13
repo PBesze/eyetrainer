@@ -6,8 +6,7 @@ import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
-import base.TeXt;
-import base.TeXtService;
+
  
 @ManagedBean(name="dtBasicView")
 @ViewScoped
