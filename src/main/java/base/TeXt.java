@@ -6,11 +6,11 @@ import java.io.Serializable;
 public class TeXt implements Serializable {
 	private static final long serialVersionUID = 1L;
 	public Character chaR1,chaR2,chaR3,chaR4 ;
-	public int size;
+	public int fontsize;
 	
 
-    public TeXt(int size, Character chaR1,  Character chaR2,  Character chaR3, Character chaR4) {
-		this.size = size;
+    public TeXt(int fontsize, Character chaR1,  Character chaR2,  Character chaR3, Character chaR4) {
+		this.size = fontsize;
 		this.chaR1 = chaR1;
 		this.chaR2 = chaR2;
 		this.chaR3 = chaR3;
@@ -18,12 +18,12 @@ public class TeXt implements Serializable {
 		
 	}
 	
-	public int getSize() {
+	public int getFontsize() {
 		return size;
 	}
 
-	public void setSize(int size) {
-		this.size = size;
+	public void setFontsize(int fontsize) {
+		this.fontsize = fontsize;
 	}
 
 	public Character getChaR1() {
