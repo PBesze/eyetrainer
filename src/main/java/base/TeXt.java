@@ -9,7 +9,7 @@ public class TeXt implements Serializable {
 	public int size;
 	
 
-    public TeXt(int size, String chaR1,  String chaR2,  String chaR3, String chaR4) {
+    public TeXt(int size, Character chaR1,  Character chaR2,  Character chaR3, Character chaR4) {
 		this.size = size;
 		this.chaR1 = chaR1;
 		this.chaR2 = chaR2;
