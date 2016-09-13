@@ -18,20 +18,20 @@ public class TeXt implements Serializable {
 		
 	}
 	
-	public String getId() {
-		return id;
+	public int getSize() {
+		return size;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setId(int size) {
+		this.id = size;
 	}
 
-	public int getYear() {
-		return year;
+	public String getChaR1() {
+		return chaR1;
 	}
 
-	public void setYear(int year) {
-		this.year = year;
+	public void setChaR1(String chaR1) {
+		this.chaR1 = chaR1;
 	}
 
 //    @Override
