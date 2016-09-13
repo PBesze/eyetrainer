@@ -28,9 +28,9 @@ public class TeXtService {
      
 
      
-    private String getRandomChaR() {
+    private Character getRandomChaR() {
        //return  (char)(Math.random() * 25 + 65);
-       return  String.toString(65);
+       return  Character.toChars(65);
     }
      
 
