@@ -14,6 +14,21 @@
 <div style="width:400px; margin: 0 auto 0 auto;">
 <h1 style="font-size:28px;">28</h1>
 <h1 style="font-size:18px;">18</h1>   
+<p:dataTable var="teXt" value="#{dtBasicView.teXts}">
+    <p:column headerText="Id">
+        <h:outputText style="#{teXt.size};" value="#{teXt.char1}" />
+    </p:column>
+    <p:column headerText="Id">
+        <h:outputText style="#{teXt.size};" value="#{teXt.char2}" />
+    </p:column>
+    <p:column headerText="Id">
+        <h:outputText style="#{teXt.size};" value="#{teXt.char3}" />
+    </p:column>
+    <p:column headerText="Id">
+        <h:outputText style="#{teXt.size};" value="#{teXt.char4}" />
+    </p:column>
+ 
+</p:dataTable>
 </div>
 
 </h:body>
