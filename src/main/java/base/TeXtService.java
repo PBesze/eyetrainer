@@ -9,7 +9,7 @@ import base.TeXt;
  
 @ManagedBean(name = "teXtService")
 @ApplicationScoped
-public class CarService {
+public class TeXtService {
      
     private final static int [] maXsize;
 
