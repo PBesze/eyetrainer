@@ -26,12 +26,35 @@ public class TeXt implements Serializable {
 		this.size = size;
 	}
 
-	public String getChaR1() {
+	public Character getChaR1() {
 		return chaR1;
 	}
 
-	public void setChaR1(String chaR1) {
+	public void setChaR1(Character chaR1) {
 		this.chaR1 = chaR1;
+	}
+	
+		public Character getChaR2() {
+		return chaR2;
+	}
+
+	public void setChaR2(Character chaR2) {
+		this.chaR2 = chaR2;
+	}
+	
+		public Character getChaR3() {
+		return chaR3;
+	}
+
+	public void setChaR1(Character chaR3) {
+		this.chaR1 = chaR3;
+	}
+		public Character getChaR4() {
+		return chaR4;
+	}
+
+	public void setChaR1(Character chaR4) {
+		this.chaR1 = chaR4;
 	}
 
 //    @Override
