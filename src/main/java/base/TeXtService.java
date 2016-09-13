@@ -12,7 +12,7 @@ import base.TeXt;
 public class CarService {
      
     private final static integer [] maXsize;
-     maXsize =32;
+     maXsize ==32;
     private final static String[] chaR;
      
 
