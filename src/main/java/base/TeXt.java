@@ -23,7 +23,7 @@ public class TeXt implements Serializable {
 	}
 
 	public void setId(int size) {
-		this.id = size;
+		this.size = size;
 	}
 
 	public String getChaR1() {
