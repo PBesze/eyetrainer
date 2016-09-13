@@ -15,7 +15,10 @@
 <form>
 <p:dataTable var="teXt" value="#{dtBasicView.teXts}">
     <p:column >
-        <h:outputText  style="font-size:6px" value="#{teXt.chaR1}" />
+        <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.fontsize}" />
+    </p:column>    
+    <p:column >
+        <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.chaR1}" />
     </p:column>
     <p:column headerText="Id">
         <h:outputText style="#{teXt.fontsize}" value="#{teXt.chaR2}" />
