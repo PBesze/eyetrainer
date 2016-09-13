@@ -4,8 +4,8 @@
    http://maven.apache.org/maven-v4_0_0.xsd">
 	
    <modelVersion>4.0.0</modelVersion>
-   <groupId>com.trainer1.main</groupId>
-   <artifactId>trainer1</artifactId>
+   <groupId>com.eyetrainer.main</groupId>
+   <artifactId>eyetrainer</artifactId>
    <packaging>war</packaging>
    <version>1.0-SNAPSHOT</version>
    <name>taskmanager Maven Webapp</name>
@@ -126,7 +126,7 @@
       			<artifactId>heroku-maven-plugin</artifactId>
       			<version>1.0.3</version>
 			      <configuration>
-  					<appName>bpdemo1</appName>
+  					<appName>eyetrainer</appName>
     					<processTypes>
      					<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
   					</processTypes>
