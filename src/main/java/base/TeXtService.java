@@ -13,7 +13,7 @@ public class TeXtService {
      
     
 
-    private final static String[] chaR;
+    //private final static String[] chaR;
      
 
      
