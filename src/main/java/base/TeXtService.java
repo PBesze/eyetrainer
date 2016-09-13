@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.UUID;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
-import base.TeXt;
+//import base.TeXt;
  
 @ManagedBean(name = "teXtService")
 @ApplicationScoped
