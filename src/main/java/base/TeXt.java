@@ -22,7 +22,7 @@ public class TeXt implements Serializable {
 		return size;
 	}
 
-	public void setId(int size) {
+	public void setSize(int size) {
 		this.size = size;
 	}
 
