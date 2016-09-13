@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 public class TeXt implements Serializable {
 	private static final long serialVersionUID = 1L;
-	public String chaR1,chaR2,chaR3,chaR4 ;
+	public Character chaR1,chaR2,chaR3,chaR4 ;
 	public int size;
 	
 
