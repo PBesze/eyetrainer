@@ -6,8 +6,8 @@ import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
-import org.primefaces.showcase.domain.Car;
-import org.primefaces.showcase.service.CarService;
+import base.TeXt;
+import base.TeXtService;
  
 @ManagedBean(name="dtBasicView")
 @ViewScoped
@@ -20,11 +20,11 @@ public class BasicView implements Serializable {
  
     @PostConstruct
     public void init() {
-        cars = service.createTeXts(10);
+        teXts = service.createTeXts(10);
     }
      
     public List<TeXt> getTeXts() {
-        return cars;
+        return teXts;
     }
  
     public void setService(TeXtService service) {
