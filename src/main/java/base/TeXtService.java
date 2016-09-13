@@ -11,8 +11,8 @@ import base.TeXt;
 @ApplicationScoped
 public class CarService {
      
-    private final static integer [] maXsize;
-     //maXsize ==32;
+    private final static int [] maXsize;
+
     private final static String[] chaR;
      
 
