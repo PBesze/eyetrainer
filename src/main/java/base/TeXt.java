@@ -19,7 +19,7 @@ public class TeXt implements Serializable {
 	}
 	
 	public String getFontsize() {
-		return size;
+		return fontsize;
 	}
 
 	public void setFontsize(String fontsize) {
