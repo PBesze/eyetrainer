@@ -13,7 +13,7 @@
 <h:body>
 <div style="width:400px; margin: 0 auto 0 auto;">
 <form>
-<p:dataTable var="teXt" value="#{dtBasicView.teXts}">
+<p:dataTable var="teXt" rowStyleClass="odd-row, even-row" value="#{dtBasicView.teXts}">
     <p:column >
         <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.fontsize}" />
     </p:column>    
