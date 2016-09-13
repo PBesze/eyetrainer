@@ -22,7 +22,7 @@ public class TeXtService {
     }
      
     private String getStyle() {
-       return  "font-size:" + "20" + "px";
+       return  "font-size:" + Integer.toString(i*4) + "px";
        
     }
      
