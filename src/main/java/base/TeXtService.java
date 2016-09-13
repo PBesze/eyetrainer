@@ -20,7 +20,7 @@ public class TeXtService {
     public List<TeXt> createTeXts(int size) {
         List<TeXt> list = new ArrayList<TeXt>();
         for(int i = 2 ; i < 10 ; i++) {
-            list.add(new TeXt(i*4, getRandomChaR, getRandomChaR, getRandomChaR, getRandomChaR));
+            list.add(new TeXt(i*4, getRandomChaR(), getRandomChaR(), getRandomChaR(), getRandomChaR()));
         }
          
         return list;
