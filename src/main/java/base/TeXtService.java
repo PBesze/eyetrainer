@@ -30,7 +30,7 @@ public class TeXtService {
      
     private String getRandomChaR() {
        //return  (char)(Math.random() * 25 + 65);
-       return  (char) 68;
+       return  Character.toChars(Math.random() * 25 + 65);
     }
      
 
