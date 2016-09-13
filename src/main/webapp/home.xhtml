@@ -12,23 +12,23 @@
 </h:head>
 <h:body>
 <div style="width:400px; margin: 0 auto 0 auto;">
-<h1 style="font-size:28px;">28</h1>
-<h1 style="font-size:18px;">18</h1>   
+<form>
 <p:dataTable var="teXt" value="#{dtBasicView.teXts}">
     <p:column headerText="Id">
-        <h:outputText  value="#{teXt.chaR1}" />
+        <h:outputText  style="#{teXt.size}" value="#{teXt.chaR1}" />
     </p:column>
     <p:column headerText="Id">
-        <h:outputText value="#{teXt.chaR2}" />
+        <h:outputText style="#{teXt.size}" value="#{teXt.chaR2}" />
     </p:column>
     <p:column headerText="Id">
-        <h:outputText value="#{teXt.chaR3}" />
+        <h:outputText style="#{teXt.size}"  value="#{teXt.chaR3}" />
     </p:column>
     <p:column headerText="Id">
-        <h:outputText  value="#{teXt.chaR4}" />
+        <h:outputText  style="#{teXt.size}"  value="#{teXt.chaR4}" />
     </p:column>
  
 </p:dataTable>
+</form>
 </div>
 
 </h:body>
