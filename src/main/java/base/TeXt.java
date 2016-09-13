@@ -46,14 +46,14 @@ public class TeXt implements Serializable {
 		return chaR3;
 	}
 
-	public void setChaR1(Character chaR3) {
+	public void setChaR3(Character chaR3) {
 		this.chaR1 = chaR3;
 	}
 		public Character getChaR4() {
 		return chaR4;
 	}
 
-	public void setChaR1(Character chaR4) {
+	public void setChaR4(Character chaR4) {
 		this.chaR1 = chaR4;
 	}
 
