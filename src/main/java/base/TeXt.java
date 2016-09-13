@@ -38,4 +38,4 @@ public class TeXt implements Serializable {
 //  	return "Car{" + "id=" + id + ", year=" + year + ", modul=" + modul + ", brand=" + brand + ", color=" + color +  '}';
     }
  
-}
+
