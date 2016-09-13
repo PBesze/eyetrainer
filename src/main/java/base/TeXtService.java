@@ -19,7 +19,7 @@ public class CarService {
      
     public List<TeXt> createTeXts(int size) {
         List<TeXt> list = new ArrayList<TeXt>();
-        for(int i = 2 ; i < size/4 ; i++) {
+        for(int i = 2 ; i < maXsize/4 ; i++) {
             list.add(new TeXt(i*4, getRandomChaR, getRandomChaR, getRandomChaR, getRandomChaR));
         }
          
@@ -28,8 +28,8 @@ public class CarService {
      
 
      
-    private int getRandomChaR() {
-        return (int) (Math.random() * 50 + 1960);
+    private String getRandomChaR() {
+        return  (char)(Math.random() * 25 + 65);
     }
      
 
