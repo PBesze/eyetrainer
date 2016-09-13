@@ -16,14 +16,14 @@ public class TeXtService {
         List<TeXt> list = new ArrayList<TeXt>();
         for(int i = 2 ; i < maxsize ; i++) {
          
-            list.add(new TeXt(getStyle(), getRandomChaR(), getRandomChaR(), getRandomChaR(), getRandomChaR()));
+            list.add(new TeXt(getStyle(i), getRandomChaR(), getRandomChaR(), getRandomChaR(), getRandomChaR()));
         }
          
         return list;
     }
      
-    private String getStyle() {
-       return  "font-size:" + Integer.toString(i*4) + "px";
+    private String getStyle(int i) {
+       return  "font-size:" + Integer.toString(i) + "px";
        
     }
      
