@@ -14,7 +14,7 @@ public class BasicView implements Serializable {
      
     private List<TeXt> teXts;
      
-    @ManagedProperty("#{TeXtService}")
+    @ManagedProperty("#{teXtService}")
     private TeXtService service;
  
     @PostConstruct
