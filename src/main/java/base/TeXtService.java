@@ -23,8 +23,8 @@ public class TeXtService {
 
      
     private Character getRandomChaR() {
-       //return  (char)(Math.random() * 25 + 65);
-       return  'A';
+       return  (char)(Math.random() * 25 + 65);
+       //return  'A';
     }
      
 
