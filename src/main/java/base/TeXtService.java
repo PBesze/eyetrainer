@@ -15,7 +15,7 @@ public class TeXtService {
         List<TeXt> list = new ArrayList<TeXt>();
         for(int i = 2 ; i < maxsize ; i++) {
          
-            list.add(new TeXt(getStyle, getRandomChaR(), getRandomChaR(), getRandomChaR(), getRandomChaR()));
+            list.add(new TeXt(getStyle(), getRandomChaR(), getRandomChaR(), getRandomChaR(), getRandomChaR()));
         }
          
         return list;
