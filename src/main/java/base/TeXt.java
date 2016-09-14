@@ -67,5 +67,5 @@ public class TeXt implements Serializable {
 		this.chaR1 = chaR4;
 	}
 
-
+}
 
