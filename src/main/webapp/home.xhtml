@@ -5,39 +5,39 @@
    xmlns:f="http://java.sun.com/jsf/core"
    xmlns:h="http://java.sun.com/jsf/html"
    xmlns:p="http://primefaces.org/ui"  >
-         <h:head>
+<h:head>
       <title>Luck at Me</title>		
       <h:outputStylesheet library="css" name="styles.css"  /> 
 
 </h:head>
 <h:body>
 <h:form> 
-<p:fieldset legend="Can  you see me?" style="margin-bottom:20px">
-<div style="width:400px; margin: 20px auto  0 auto;">
 
+<div style="width:500px; margin: 20px auto  0 auto;">
+<p:fieldset legend="Can  you see me?" style="margin-bottom:20px">
    <p:dataTable var="teXt" rowStyleClass="odd-row, even-row" value="#{dtBasicView.teXts}">
        <p:column >
-        <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.fontsize}" />
+        <h:outputText  style="#{teXt.fontsizeStyle}"  value="#{teXt.fontsize}" />
        </p:column>    
-       <p:column >
-        <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.chaR1}" />
+       <p:column headerText="I">
+        <h:outputText  style="#{teXt.fontsizeStyle}"  value="#{teXt.chaR1}" />
        </p:column>
-      <p:column >
-        <h:outputText style="#{teXt.fontsize}" value="#{teXt.chaR2}" />
+      <p:column headerText="II">
+        <h:outputText style="#{teXt.fontsizeStyle}" value="#{teXt.chaR2}" />
       </p:column>
-      <p:column >
-        <h:outputText style="#{teXt.fontsize}"  value="#{teXt.chaR3}" />
+      <p:column headerText="III">
+        <h:outputText style="#{teXt.fontsizeStyle}"  value="#{teXt.chaR3}" />
        </p:column>
-      <p:column >
-        <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.chaR4}" />
+      <p:column headerText="IV">
+        <h:outputText  style="#{teXt.fontsizeStyle}"  value="#{teXt.chaR4}" />
       </p:column>
  
    </p:dataTable>
 
 
-
-</div>
 </p:fieldset>
+</div>
+
 </h:form>
 </h:body>
 </html>
