@@ -11,41 +11,33 @@
 
 </h:head>
 <h:body>
-     <h:form> 
-     	<p:fieldset legend="PrimeFaces in progress..." style="margin-bottom:20px">
-    
+<h:form> 
+<p:fieldset legend="Can  you see me?" style="margin-bottom:20px">
+<div style="width:400px; margin: 20px auto  0 auto;">
 
-    <h2>Login Page</h2>
-    <p>You can use "admin" and "qwert" to login.</p>
-    </p:fieldset>
-    <div style="width:400px; margin: 20px auto  0 auto;">
-
-    
-
-<p:dataTable var="teXt" rowStyleClass="odd-row, even-row" value="#{dtBasicView.teXts}">
-    <p:column >
+   <p:dataTable var="teXt" rowStyleClass="odd-row, even-row" value="#{dtBasicView.teXts}">
+       <p:column >
         <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.fontsize}" />
-    </p:column>    
-    <p:column >
+       </p:column>    
+       <p:column >
         <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.chaR1}" />
-    </p:column>
-    <p:column >
+       </p:column>
+      <p:column >
         <h:outputText style="#{teXt.fontsize}" value="#{teXt.chaR2}" />
-    </p:column>
-    <p:column >
+      </p:column>
+      <p:column >
         <h:outputText style="#{teXt.fontsize}"  value="#{teXt.chaR3}" />
-    </p:column>
-    <p:column >
+       </p:column>
+      <p:column >
         <h:outputText  style="#{teXt.fontsize}"  value="#{teXt.chaR4}" />
-    </p:column>
+      </p:column>
  
-</p:dataTable>
+   </p:dataTable>
 
 
 
 </div>
-
+</p:fieldset>
 </h:form>
-
 </h:body>
 </html>
