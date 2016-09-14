@@ -16,7 +16,7 @@ public class TeXtService implements Serializable{
         List<TeXt> list = new ArrayList<TeXt>();
         for(int i = 1 ; i < maxsize ; i++) {
          
-            list.add(new TeXt(getStyle(i), getRandomChaR(), getRandomChaR(), getRandomChaR(), getRandomChaR()));
+            list.add(new TeXt(i*5, getStyle(i), getRandomChaR(), getRandomChaR(), getRandomChaR(), getRandomChaR()));
         }
          
         return list;
