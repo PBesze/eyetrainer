@@ -13,7 +13,7 @@ public class TaSk implements Serializable {
 	
 
 		public String getTaSk() {
-		return fontsizeStyle;
+		return taSk;
 	}
 
 	public void setTaSk(String taSk) {
