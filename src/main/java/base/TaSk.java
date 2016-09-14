@@ -9,14 +9,13 @@ import javax.faces.context.FacesContext;
 @SessionScoped
 public class TaSk{
 
-	public String side;
 
 
-	public String getOutcome(){
+	public String getSide(){
 
 		
 
-		return "Hoppá";
+		return "Can you read it?";
 	}
 
 
