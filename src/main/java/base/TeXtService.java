@@ -23,7 +23,7 @@ public class TeXtService implements Serializable{
     }
      
     private String getStyle(int i) {
-       return  "font-size:" + Integer.toString(i*5) + "px " + "text-align: center";
+       return  "font-size:" + Integer.toString(i*5) + "px ";
        
     }
      
