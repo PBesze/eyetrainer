@@ -1,23 +1,26 @@
 package base;
 
-import java.io.Serializable;
+import java.util.Map;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
 
-public class TaSk implements Serializable {
-	private static final long serialVersionUID = 1L;
+@ManagedBean(name="taSk")
+@SessionScoped
+public class UserBean{
+
 	public String side;
-	
-    public TaSk(String  side) {
-		this.side = side;
+
+
+	public String outcome(){
+
 		
-	}
-	
 
-		public String getTaSk() {
-		return taSk;
+		return "Hoppá";
 	}
 
-	public void setTaSk(String taSk) {
-		this.taSk = taSk;
-	}
+
+
+	//getter and setter methods
 
 }
