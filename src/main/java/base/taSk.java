@@ -7,7 +7,7 @@ import javax.faces.context.FacesContext;
 
 @ManagedBean(name="taSk")
 @SessionScoped
-public class UserBean{
+public class TaSk{
 
 	public String side;
 
