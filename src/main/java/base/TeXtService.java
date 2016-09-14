@@ -10,7 +10,7 @@ import java.io.Serializable;
  
 @ManagedBean(name = "teXtService")
 @ApplicationScoped
-public class TeXtService {
+public class Serializable TeXtService {
  
     public List<TeXt> createTeXts(int maxsize) {
         List<TeXt> list = new ArrayList<TeXt>();
