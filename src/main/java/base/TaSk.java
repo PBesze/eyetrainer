@@ -12,7 +12,7 @@ public class TaSk{
 	public String side;
 
 
-	public String outcome(){
+	public String getOutcome(){
 
 		
 
