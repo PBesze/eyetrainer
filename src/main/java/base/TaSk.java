@@ -15,7 +15,7 @@ public static int stepcounter = 0;
  //   	if (stepcounter%3 == 1 ) {return "Can you read it with your RIGHT EYE?";}
  //   	else {return "Can you read it with your TWO EYES?";}
   	if (stepcounter%2 == 0 ) {return stepcounter;}
-   	else {return 5555;}
+   	else {return stepcounter;}
  
     }
 
