@@ -15,6 +15,10 @@
 
 <div style="width:500px; margin: 20px auto  0 auto;">
 <p:fieldset legend="#{taSk.side}" style="margin-bottom:20px">
+
+            <h:outputText value="#{taSk.side}" />
+
+   
    <p:dataTable var="teXt" rowStyleClass="odd-row, even-row" value="#{dtBasicView.teXts}">
        <p:column >
         <h:outputText  style="#{teXt.fontsizeStyle}"  value="#{teXt.fontsize}" />
