@@ -11,10 +11,11 @@ public class TaSk{
 public static int stepcounter = 0;
     public int getSide() {
     	stepcounter++;
-    	if (stepcounter%2 == 0 ) {return "Can you read it with your LEFT EYE?";}
+ //   	if (stepcounter%3 == 0 ) {return "Can you read it with your LEFT EYE?";}
  //   	if (stepcounter%3 == 1 ) {return "Can you read it with your RIGHT EYE?";}
-    	else {return "Can you read it with your TWO EYES?";}
- //return stepcounter;
+ //   	else {return "Can you read it with your TWO EYES?";}
+ 	if (stepcounter%2 == 0 ) {return stepcounter;}
+ else {return stepcounter;}
     }
 
 
