@@ -9,11 +9,12 @@ import javax.faces.context.FacesContext;
 @SessionScoped
 public class TaSk{
 public static int stepcounter = 0;
-    public String getSide() {
+    public int getSide() {
     	stepcounter++;
-    	if (stepcounter%3 == 0 ) {return "Can you read it with your LEFT EYE?";}
-    	if (stepcounter%3 == 1 ) {return "Can you read it with your RIGHT EYE?";}
-    	else {return "Can you read it with your TWO EYES?";}
+ //   	if (stepcounter%3 == 0 ) {return "Can you read it with your LEFT EYE?";}
+ //   	if (stepcounter%3 == 1 ) {return "Can you read it with your RIGHT EYE?";}
+ //   	else {return "Can you read it with your TWO EYES?";}
+ return stepcounter;
     }
 
 
