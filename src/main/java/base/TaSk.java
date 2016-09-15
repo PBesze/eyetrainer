@@ -8,7 +8,7 @@ import javax.faces.context.FacesContext;
 @ManagedBean(name="taSk")
 @SessionScoped
 public class TaSk{
-public static int stepcounter = 1;
+public static int stepcounter = 0;
     public String getSide() {
     	stepcounter++;
     	if (stepcounter%3 == 0 ) {return "Can you read it with your LEFT EYE?";}
